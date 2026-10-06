@@ -40,3 +40,5 @@ footer a{color:var(--dim);margin:0 8px}
 .gallery figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .gallery img{display:block;width:100%;height:auto}
 .gallery figcaption{padding:10px 14px;font-size:.85rem;color:var(--dim)}
+.games-tiles{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.games-tiles figcaption{text-align:center;font-weight:600;color:var(--text)}
